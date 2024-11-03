@@ -1,6 +1,6 @@
 # python-challenge
 
-## Although the files and folders that make this project were created by me, SOME of the code within both main.py files are starter code from the course files that were given to every student within the class. Most of the starter code used from the project files for both projects can be found on lines 5, 13, 14, 17, and a few lines possibly making up the final portion of each main.py file...
+## Although the files and folders that make this project were created by me, SOME of the code within both main.py files is starter code from the course files that were given to every student within the class. Most of the starter code used from the project files for both projects can be found on lines 5, 13, 14, 17, and a few lines possibly making up the final portion of each main.py file...
 
 ## Description
 
