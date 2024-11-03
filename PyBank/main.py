@@ -38,14 +38,18 @@ with open(path) as csvfile:
         last_month = current_month_profit_loss
 
 # Calclates average change
-average_change = sum(changes) / len(changes) if change else 0
-
-# Calculate greatest profit increase and decrease
-greatest_increase = max(changes) if changes else 0
-greatest_increase_month = change_months[changes.index(greatest_increase)] if change else ""
-
-greatest_decrease = min(changes) if changes else 0
-greatest_decrease_month = change_months[changes.index(greatest_decrease)] if change else ""
+if changes:
+    average_change = sum(changes) / len(changes)
+    greatest_increase = max(changes)
+    greatest_increase_month = change_months[changes.index(greatest_increase)]
+    greatest_decrease = min(changes)
+    greatest_decrease_month = change_months[changes.index(greatest_decrease)]
+else:
+    average_change = 0
+    greatest_increase = 0
+    greatest_increase_month = ""
+    greatest_decrease = 0
+    greatest_decrease_month = ""
 
 # Printing results to the Terminal
 print("Financial Analysis")
