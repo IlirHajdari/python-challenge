@@ -63,11 +63,11 @@ print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decr
 
 # Printing results to text file
 output_path = os.path.join("analysis", "financial_analysis.txt")
-with open(output_path, "w") as txtfile:
-    txtfile.write("Financial Analysis\n")
-    txtfile.write("----------------------------\n")
-    txtfile.write(f"Total Months: {month_count}\n")
-    txtfile.write(f"Total: ${total_prof_loss}\n")
-    txtfile.write(f"Average Change: ${average_change:.2f}\n")
-    txtfile.write(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})\n")
-    txtfile.write(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
+with open(output_path, "w") as txt_file:
+    txt_file.write("Financial Analysis\n")
+    txt_file.write("----------------------------\n")
+    txt_file.write(f"Total Months: {month_count}\n")
+    txt_file.write(f"Total: ${total_prof_loss}\n")
+    txt_file.write(f"Average Change: ${average_change:.2f}\n")
+    txt_file.write(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})\n")
+    txt_file.write(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
