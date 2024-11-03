@@ -46,3 +46,12 @@ greatest_increase_month = change_months[changes.index(greatest_increase)] if cha
 
 greatest_decrease = min(changes) if changes else 0
 greatest_decrease_month = change_months[changes.index(greatest_decrease)] if change else ""
+
+# Printing results to the Terminal
+print("Financial Analysis")
+print("----------------------------")
+print(f"Total Months {month_count}")
+print(f"Total: ${total_prof_loss}")
+print(f"Average Change: ${average_change:.2f}")
+print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})")
+print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
