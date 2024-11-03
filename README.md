@@ -19,4 +19,4 @@ The PyBank script processes a dataset that contains "Date" and "Profit/Losses" c
 
 ## PyBank Results:
 
-![PyBank Analysis Results](analysis/PyBankResults.png)
+![PyBank Analysis Results](https://github.com/IlirHajdari/python-challenge/blob/main/PyBank/analysis/PyBankResults.png)
