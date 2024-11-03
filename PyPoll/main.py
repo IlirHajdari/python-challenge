@@ -38,7 +38,8 @@ with open(path) as csvfile:
 winner = max(candidates, key=candidates.get)
 
 # Save results to text file
-with open("election_results.txt", "w") as txt_file:
+output_path = os.path.join("analysis", "election_results.txt")
+with open(output_path, "w") as txt_file:
     txt_file.write("Election Results\n")
     txt_file.write("-------------------------\n")
     txt_file.write(f"Total Votes: {total_votes}\n")
