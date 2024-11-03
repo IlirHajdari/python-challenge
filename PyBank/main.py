@@ -37,7 +37,7 @@ with open(path) as csvfile:
         # Update last month's profit/loss to current month
         last_month = current_month_profit_loss
 
-# Calclates average change
+# Calculates average change
 if changes:
     average_change = sum(changes) / len(changes)
     greatest_increase = max(changes)
