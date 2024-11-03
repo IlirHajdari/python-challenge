@@ -20,3 +20,17 @@ The PyBank script processes a dataset that contains "Date" and "Profit/Losses" c
 ## PyBank Results:
 
 ![PyBank Analysis Results](https://github.com/IlirHajdari/python-challenge/blob/main/PyBank/analysis/PyBankResults.png)
+
+## PyPoll Analysis
+
+The PyPoll script processes a dataset containing "Voter ID", "County", and "Candidate" columns to calculate:
+
+- The total number of votes.
+- A complete list of candidates who got votes.
+- The percentage of votes each candidate won.
+- The total number of votes each candidate won.
+- The winner of the election based on popular vote.
+
+## PyPoll Results:
+
+![PyPoll Results](https://github.com/IlirHajdari/python-challenge/blob/main/PyPoll/analysis/ElectionResults.png)
