@@ -55,3 +55,15 @@ print(f"Total: ${total_prof_loss}")
 print(f"Average Change: ${average_change:.2f}")
 print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})")
 print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
+
+
+# Printing results to text file
+output_path = os.path.join("analysis", "financial_analysis.txt")
+with open(output_path, "w") as txtfile:
+    txtfile.write("Financial Analysis\n")
+    txtfile.write("----------------------------\n")
+    txtfile.write(f"Total Months: {month_count}\n")
+    txtfile.write(f"Total: ${total_prof_loss}\n")
+    txtfile.write(f"Average Change: ${average_change:.2f}\n")
+    txtfile.write(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})\n")
+    txtfile.write(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
