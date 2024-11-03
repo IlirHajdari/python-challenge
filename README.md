@@ -34,3 +34,9 @@ The PyPoll script processes a dataset containing "Voter ID", "County", and "Cand
 ## PyPoll Results:
 
 ![PyPoll Results](https://github.com/IlirHajdari/python-challenge/blob/main/PyPoll/analysis/ElectionResults.png)
+
+## Contanct Info
+
+For questions, feel free to reach out:
+
+- Email: ilir.hajdari111@gmail.com
